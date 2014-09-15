@@ -13,6 +13,51 @@
   <body>
     <h1>tachyons white space</h1>
     <h2>Examples</h2>
+
+.ws-norm    { white-space: normal; }
+.ws-nowrap  { white-space: nowrap; }
+.ws-pre     { white-space: pre; }
+  .ws-norm-ns    { white-space: normal; }
+  .ws-nowrap-ns  { white-space: nowrap; }
+  .ws-pre-ns     { white-space: pre; }
+  .ws-norm-m    { white-space: normal; }
+  .ws-nowrap-m  { white-space: nowrap; }
+  .ws-pre-m     { white-space: pre; }
+  .ws-norm-l    { white-space: normal; }
+  .ws-nowrap-l  { white-space: nowrap; }
+  .ws-pre-l     { white-space: pre; }
+    <pre>
+<code>
+/*
+
+   WHITE SPACE
+
+*/
+
+
+.ws-norm    { white-space: normal; }
+.ws-nowrap  { white-space: nowrap; }
+.ws-pre     { white-space: pre; }
+
+@include break(not-small) {
+  .ws-norm-ns    { white-space: normal; }
+  .ws-nowrap-ns  { white-space: nowrap; }
+  .ws-pre-ns     { white-space: pre; }
+}
+
+@include break(medium) {
+  .ws-norm-m    { white-space: normal; }
+  .ws-nowrap-m  { white-space: nowrap; }
+  .ws-pre-m     { white-space: pre; }
+}
+
+@include break(large) {
+  .ws-norm-l    { white-space: normal; }
+  .ws-nowrap-l  { white-space: nowrap; }
+  .ws-pre-l     { white-space: pre; }
+}
+</code>
+</pre>
     <a href="http://npmjs.org/package/tachyons-white-space" title="tachyons-white-space">View package on npm</a>
   </body>
 </html>
