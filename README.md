@@ -8,6 +8,39 @@ npm install --save-dev tachyons-white-space
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   WHITE SPACE
+
+*/
+
+
+.ws-norm    { white-space: normal; }
+.ws-nowrap  { white-space: nowrap; }
+.ws-pre     { white-space: pre; }
+
+@include break(not-small) {
+  .ws-norm-ns    { white-space: normal; }
+  .ws-nowrap-ns  { white-space: nowrap; }
+  .ws-pre-ns     { white-space: pre; }
+}
+
+@include break(medium) {
+  .ws-norm-m    { white-space: normal; }
+  .ws-nowrap-m  { white-space: nowrap; }
+  .ws-pre-m     { white-space: pre; }
+}
+
+@include break(large) {
+  .ws-norm-l    { white-space: normal; }
+  .ws-nowrap-l  { white-space: nowrap; }
+  .ws-pre-l     { white-space: pre; }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
