@@ -1,6 +1,6 @@
 {
   "name": "tachyons-white-space",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "style": "white_space.css",
   "homepage": "http://mrmrs.io/tachyons-white-space",
   "description": "Performance based sass module.",
