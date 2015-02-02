@@ -2,7 +2,7 @@
   "name": "tachyons-white-space",
   "version": "1.0.0",
   "style": "tachyons-white-space.css",
-  "homepage": "http://mrmrs.io/tachyons-white-space",
+  "homepage": "http://github.com/mrmrs/tachyons-white-space",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
