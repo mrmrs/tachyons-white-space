@@ -16,7 +16,7 @@
   white-space: pre;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
   .ws-norm-ns {
     white-space: normal;
   }
