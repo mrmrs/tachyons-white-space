@@ -2,15 +2,15 @@
   "name": "tachyons-white-space",
   "version": "2.0.1",
   "style": "tachyons-white-space.css",
-  "homepage": "http://github.com/mrmrs/tachyons-white-space",
+  "homepage": "http://github.com/tachyons-css/tachyons-white-space",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-white-space.git"
+    "url": "http://github.com/tachyons-css/tachyons-white-space.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-white-space/issues",
+    "url": "https://github.com/tachyons-css/tachyons-white-space/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
