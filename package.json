@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^0.3.1"
+    "tachyons-cli": "^0.3.3"
   },
   "scripts": {
     "start": "tachyons src/tachyons-white-space.css > css/tachyons-white-space.css && tachyons src/tachyons-white-space.css --minify > css/tachyons-white-space.min.css && tachyons src/tachyons-white-space.css --generate-docs --package=../../package.json > README.md"
