@@ -1,6 +1,6 @@
 {
   "name": "tachyons-white-space",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "style": "src/tachyons-white-space.css",
   "description": "Performance based css module.",
   "keywords": [
