@@ -1,4 +1,4 @@
-# tachyons-white-space 2.0.3
+# tachyons-white-space 3.0.0
 
 Performance based css module.
 
