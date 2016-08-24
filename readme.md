@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-186 | 12 | 12
+185 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -82,17 +82,17 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .ws-normal-ns { white-space: normal; }
  .nowrap-ns { white-space: nowrap; }
  .pre-ns { white-space: pre; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .ws-normal-m { white-space: normal; }
  .nowrap-m { white-space: nowrap; }
  .pre-m { white-space: pre; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .ws-normal-l { white-space: normal; }
  .nowrap-l { white-space: nowrap; }
  .pre-l { white-space: pre; }
