@@ -82,20 +82,28 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
+.pre-line { white-space: pre-line; }
+.pre-wrap { white-space: pre-wrap; }
 @media screen and (min-width: 30em) {
  .ws-normal-ns { white-space: normal; }
  .nowrap-ns { white-space: nowrap; }
  .pre-ns { white-space: pre; }
+ .pre-line-ns { white-space: pre-line; }
+ .pre-wrap-ns { white-space: pre-wrap; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .ws-normal-m { white-space: normal; }
  .nowrap-m { white-space: nowrap; }
  .pre-m { white-space: pre; }
+ .pre-line-m { white-space: pre-line; }
+ .pre-wrap-m { white-space: pre-wrap; }
 }
 @media screen and (min-width: 60em) {
  .ws-normal-l { white-space: normal; }
  .nowrap-l { white-space: nowrap; }
  .pre-l { white-space: pre; }
+ .pre-line-l { white-space: pre-line; }
+ .pre-wrap-l { white-space: pre-wrap; }
 }
 ```
 
@@ -115,4 +123,3 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ## License
 
 ISC
-
