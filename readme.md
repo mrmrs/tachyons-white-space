@@ -1,6 +1,6 @@
-# tachyons-white-space 4.0.3
+# tachyons-white-space 4.0.5
 
-Performance based css module.
+Tachyons css module for setting white space across breakpoints.
 
 #### Stats
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-white-space@4.0.3/css/tachyons-white-space.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-white-space@4.0.5/css/tachyons-white-space.min.css" />
 ```
 
 ##### Locally
